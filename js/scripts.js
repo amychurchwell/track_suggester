@@ -6,9 +6,10 @@ $(document).ready(function() {
     var pro = parseInt($("input:radio[name=pro]:checked").val());
     var company = parseInt($("input:radio[name=company]:checked").val());
 
-    var answer = size + tech + flaw + pro + company
+    var something = [size, tech, company, flaw, pro]; //test for ties
+    var answer = size + tech + flaw + pro + company;
 
-    if (answer > 10 && answer != 12) {
+    if (answer > 10 && answer != 12) { //fix math, there is something off
       $('#PHP').show();
       $('#RUBY').hide();
       $('#C').hide();
