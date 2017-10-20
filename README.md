@@ -13,7 +13,7 @@ A quiz to help prospective students decide what programming language they should
 
 ## Setup/Installation Requirements
 
-###### You will need to clone the repository:
+#### You will need to clone the repository:
 * Open web browser and go to the [GitHub repo][1].
 * In the right hand corner there is a green button. Click and copy the URL.
 * Open terminal.
