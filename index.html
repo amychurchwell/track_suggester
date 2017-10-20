@@ -8,137 +8,172 @@
     <title>Epicodus Track Suggester.</title>
   </head>
   <body>
-    <div class="container">
-      <h1 class="display-3">Epicodus Track Suggester.</h1>
-      <p class="lead">What programming language should I learn?</p>
-      <p>A <strong>daunting</strong> question! <em>DO NOT FEAR</em> I have made a quiz to help you choose. <br>So, if in 5 years from now you are riddled with regrets you can blame me.</p>
-      <!--FORM STARTS HERE-->
-      <form id="suggester">
-        <div class="form-group">
-          <div class="radio">
-            <label for="biz-size">What kind of business would you enjoy working for?</br>
-              <input type="radio" name="biz-size" value="1">
-              Large Company
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="biz-size" value="2">
-              Small Startup
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="biz-size" value="3">
-              Fast-Paced Agency
-            </label>
-          </div>
+    <div class="container-fluid">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-3">Epicodus Track Suggester.</h1>
+          <p class="lead">What programming language should I learn?</p>
+          <p>A <strong>daunting</strong> question! <em>DO NOT FEAR</em> I have made a quiz to help you choose. <br>So, if in 5 years from now you are riddled with regrets you can blame me.</p>
         </div>
-        <!--Q TWO-->
-        <div class="form-group">
-          <div class="radio">
-            <label for="tech">What kind of product/service interests you?</br>
-              <input type="radio" name="tech" value="1">
-              Internal Business Software.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="tech" value="2">
-              Dynamic and interactive web applications.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="tech" value="3">
-              The security and stability of government websites.
-            </label>
-          </div>
-        </div>
-        <!--Q THREE-->
-        <div class="form-group">
-          <div class="radio">
-            <label for="tech">Which company do you admire* the most from these choices?</br>
-              <small class="form-text text-muted">*the technical aspects of the company.</small>
-              <input type="radio" name="company" value="1">
-              Microsoft.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="company" value="2">
-              Airbnb.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="company" value="3">
-              Facebook.
-            </label>
-          </div>
-        </div>
-      <!--Q FOUR-->
-        <div class="form-group">
-          <div class="radio">
-            <label for="tech">All languages have flaws. Which one of these is not a deal-breaker:</br>
-              <input type="radio" name="flaw" value="1">
-              Integrates well with Windows, but not yet as well with other platforms.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="flaw" value="2">
-              Slower run-time on a computer.  Multiple ways to do things can make reading code a little harder.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="flaw" value="3">
-              Makes it easy to create something quickly, but also to follow bad practices and leave security holes.
-            </label>
-          </div>
-        </div>
-      <!--Q FIVE-->
-        <div class="form-group">
-          <div class="radio">
-            <label for="tech">Hey it's not all bad! What kind of pro/unique feature catches your eye?</br>
-              <input type="radio" name="pro" value="1">
-              LINQ for easily querying and updating data.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="pro" value="2">
-              Pass around Blocks of code to get stuff done concisely.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="pro" value="3">
-              Quick to set up server and web host.
-            </label>
-          </div>
-        </div>
-        <button type="submit" class="btn">Submit</button>
-        <small class="form-text text-muted">Results are calculated based on the majority of the answers. No language may be a perfect fit.</small>
-      </form>
-      <!--RESULTS BEGIN HERE-->
-      <div id="test">
-        <h3>TEST!</h3>
       </div>
-      <div id="C">
-        <h3>Result is C#!</h3>
+      <div class="row">
+        <div class="col-md-3">
+          <strong>Epicodus</strong><br>
+          400 SW 6th Ave #800<br>
+          Portland, OR 97204<br>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <!--FORM STARTS HERE-->
+          <form id="suggester">
+            <div class="form-group">
+              <div class="radio">
+                <label for="biz-size">What kind of business would you enjoy working for?</br>
+                  <input type="radio" name="biz-size" value="1">
+                  Large Company
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="biz-size" value="2">
+                  Small Startup
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="biz-size" value="3">
+                  Fast-Paced Agency
+                </label>
+              </div>
+            </div>
+            <!--Q TWO-->
+            <div class="form-group">
+              <div class="radio">
+                <label for="tech">What kind of product/service interests you?</br>
+                  <input type="radio" name="tech" value="1">
+                  Internal Business Software.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="tech" value="2">
+                  Dynamic and interactive web applications.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="tech" value="3">
+                  The security and stability of government websites.
+                </label>
+              </div>
+            </div>
+            <!--Q THREE-->
+            <div class="form-group">
+              <div class="radio">
+                <label for="tech">Which company do you admire* the most from these choices?</br>
+                  <small class="form-text text-muted">*the technical aspects of the company.</small>
+                  <input type="radio" name="company" value="1">
+                  Microsoft.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="company" value="2">
+                  Airbnb.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="company" value="3">
+                  Facebook.
+                </label>
+              </div>
+            </div>
+          <!--Q FOUR-->
+            <div class="form-group">
+              <div class="radio">
+                <label for="tech">All languages have flaws. Which one of these is not a deal-breaker:</br>
+                  <input type="radio" name="flaw" value="1">
+                  Integrates well with Windows, but not yet as well with other platforms.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="flaw" value="2">
+                  Slower run-time on a computer.  Multiple ways to do things can make reading code a little harder.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="flaw" value="3">
+                  Makes it easy to create something quickly, but also to follow bad practices and leave security holes.
+                </label>
+              </div>
+            </div>
+          <!--Q FIVE-->
+            <div class="form-group">
+              <div class="radio">
+                <label for="tech">Hey it's not all bad! What kind of pro/unique feature catches your eye?</br>
+                  <input type="radio" name="pro" value="1">
+                  LINQ for easily querying and updating data.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="pro" value="2">
+                  Pass around Blocks of code to get stuff done concisely.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="pro" value="3">
+                  Quick to set up server and web host.
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+            <small class="form-text text-muted">Results are calculated based on the majority of the answers. No language may be a perfect fit.</small>
+          </form>
+          <!--RESULTS BEGIN HERE-->
+          <div id="C">
+            <div class="card" style="width: 30rem;">
+              <img class="card-img-top" src="img/C.png" alt="C Sharp logo">
+              <div class="card-body">
+                <h4 class="card-title">C#</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Don't cut yourself, it's C SHARP!</h6>
+                <p class="card-text">C# is a general-purpose, object-oriented programming language.</p>
+                <a href="#" class="card-link">Learn more!</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div>
+          </div>
+          <div id="RUBY">
+            <div class="card" style="width: 30rem;">
+              <img class="card-img-top" src="img/ruby.png" alt="Ruby logo">
+              <div class="card-body">
+                <h4 class="card-title">RUBY</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Worth more than diamonds!</h6>
+                <p class="card-text">Ruby is a dynamic, reflective, object-oriented, general-purpose programming language.</p>
+                <a href="#" class="card-link">Learn more!</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div>
+          </div>
+          <div id="PHP">
+            <h4>Your result is:</h4>
+            <div class="card" style="width: 30rem;">
+              <img class="card-img-top" src="img/php.png" alt="PHP logo">
+              <div class="card-body">
+                <h4 class="card-title">PHP</h4>
+                <h6 class="card-subtitle mb-2 text-muted">You don't need a PHD to understand PHP! I mean, it couldn't hurt though.</h6>
+                <p class="card-text">PHP is a server-side scripting language designed primarily for web development but also used as a general-purpose programming language.</p>
+                <a href="#" class="card-link">Learn more!</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div id="RUBY">
-        <h3>Result is Ruby!</h3>
-      </div>
-
-      <div id="PHP">
-        <h3>Result is PHP!</h3>
-      </div>
-
-
     </div>
   </body>
 </html>
