@@ -2,7 +2,11 @@ $(document).ready(function() {
   $("form#suggester").submit(function(event) {
     var size = parseInt($("input:radio[name=biz-size]:checked").val());
     var tech = parseInt($("input:radio[name=tech]:checked").val());
-    var answer = size + tech
+    var flaw = parseInt($("input:radio[name=flaw]:checked").val());
+    var pro = parseInt($("input:radio[name=pro]:checked").val());
+    var company = parseInt($("input:radio[name=company]:checked").val());
+
+    var answer = size + tech + flaw + pro + company
 
     if (answer <= 2){
       $("#C").show();
