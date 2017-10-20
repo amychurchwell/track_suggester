@@ -8,12 +8,12 @@ $(document).ready(function() {
     var list = [size, tech, company, flaw, pro];
     var answer = size + tech + flaw + pro + company;
 
-    if (answer >= 11 && answer <= 15) {
+    if (answer >= 11 && answer <= 15 && answer != 12) {
       $('#PHP').show();
       $('#RUBY').hide();
       $('#C').hide();
 
-    } else if (answer >= 8 && answer <= 12) {
+    } else if (answer >= 8 && answer <= 12 && answer != 9) {
       $('#RUBY').show();
       $('#PHP').hide();
       $('#C').hide();
