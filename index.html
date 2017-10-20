@@ -9,31 +9,120 @@
   </head>
   <body>
     <div class="container">
-      <h1>Epicodus Track Suggester.</h1>
+      <h1 class="display-3">Epicodus Track Suggester.</h1>
+      <p class="lead">What programming language should I learn?</p>
+      <p>A <strong>daunting</strong> question! <em>DO NOT FEAR</em> I have made a quiz to help you choose. <br>So, if in 5 years from now you are riddled with regrets you can blame me.</p>
+      <!--FORM STARTS HERE-->
       <form id="suggester">
-        <div class="radio">
-          <label>
-            <input type="radio" name="biz-size" value="large">
-            Large Company
-          </label>
+        <div class="form-group">
+          <div class="radio">
+            <label for="biz-size">What kind of business would you enjoy working for?</br>
+              <input type="radio" name="biz-size" value="1">
+              Large Company
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="biz-size" value="2">
+              Small Startup
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="biz-size" value="3">
+              Fast-Paced Agency
+            </label>
+          </div>
         </div>
-
-        <div class="radio">
-          <label>
-            <input type="radio" name="biz-size" value="small">
-            Small Startup
-          </label>
+        <!--Q TWO-->
+        <div class="form-group">
+          <div class="radio">
+            <label for="tech">What kind of product/service interests you?</br>
+              <input type="radio" name="tech" value="1">
+              Internal Business Software.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="tech" value="2">
+              Dynamic and interactive web applications.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="tech" value="3">
+              The security and stability of government websites.
+            </label>
+          </div>
         </div>
-
-        <div class="radio">
-          <label>
-            <input type="radio" name="biz-size" value="fast">
-            Fast-Paced Agency
-          </label>
+        <!--Q THREE-->
+        <div class="form-group">
+          <div class="radio">
+            <label for="tech">Which company do you admire* the most from these choices?</br>
+              <small class="form-text text-muted">*the technical aspects of the company.</small>
+              <input type="radio" name="company" value="1">
+              Microsoft.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="company" value="2">
+              Airbnb.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="company" value="3">
+              Facebook.
+            </label>
+          </div>
         </div>
-
+      <!--Q FOUR-->
+        <div class="form-group">
+          <div class="radio">
+            <label for="tech">Which company do you admire* the most from these choices?</br>
+              <small class="form-text text-muted">*the technical aspects of the company.</small>
+              <input type="radio" name="company" value="1">
+              Microsoft.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="company" value="2">
+              Airbnb.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="company" value="3">
+              Facebook.
+            </label>
+          </div>
+        </div>
+      <!--Q FIVE-->
+        <div class="form-group">
+          <div class="radio">
+            <label for="tech">Which company do you admire* the most from these choices?</br>
+              <small class="form-text text-muted">*the technical aspects of the company.</small>
+              <input type="radio" name="company" value="1">
+              Microsoft.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="company" value="2">
+              Airbnb.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="company" value="3">
+              Facebook.
+            </label>
+          </div>
+        </div>
         <button type="submit" class="btn">Submit</button>
-        </form>
+      </form>
       <!--RESULTS BEGIN HERE-->
       <div id="C">
         <h3>Result is C#!</h3>
