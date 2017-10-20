@@ -8,16 +8,21 @@ $(document).ready(function() {
 
     var answer = size + tech + flaw + pro + company
 
-    if (answer <= 2){
-      $("#C").show();
+    if (answer > 10 && answer != 12) {
+      $('#PHP').show();
       $('#RUBY').hide();
-      $('#PHP').hide();
-    } else if (answer > 2) {
+      $('#C').hide();
+    } else if (answer < 13 && answer > 7){
       $('#RUBY').show();
       $('#PHP').hide();
       $('#C').hide();
 
+    } else{
+      $("#C").show();
+      $('#RUBY').hide();
+      $('#PHP').hide();
     }
+
     event.preventDefault();
   });
 });
