@@ -24,11 +24,10 @@ A quiz to help prospective students decide what programming language they should
 
 [1]: https://github.com/amychurchwell/track_suggester "GitHub Repository"
 
-_Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?_
-
 ## Known Bugs
 
-An issue that I have not yet resolved is in regards to the number ranges that are assigned to each result.
+All bugs correlate to the number ranges given to each possible result.
+Currently testing another method of determining frequency of certain answers.
 *The possibility of a tie has not been addressed.*
 *There is overlap in results due to the limited nature of the number ranges.*
 
