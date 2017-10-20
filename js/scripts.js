@@ -32,6 +32,8 @@ $(document).ready(function() {
 
     $("#test").append(result[1]);
 }
+
+
 */
 
     if (answer >= 11 && answer <= 15) {
@@ -50,7 +52,7 @@ $(document).ready(function() {
       $('#PHP').hide();
 
     } else {
-      alert('Please make some selections.')
+      alert('Be sure to answer all of the questions!')
     }
 
     event.preventDefault();

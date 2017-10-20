@@ -5,13 +5,13 @@
     <script src="js/scripts.js"></script>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <title>Epicodus Track Suggester.</title>
+    <title>Epicodus Track Suggester</title>
   </head>
   <body>
     <div class="container-fluid">
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-3">Epicodus Track Suggester.</h1>
+          <h1 class="display-3">Epicodus Track Suggester</h1>
           <p class="lead">What programming language should I learn?</p>
           <p>A <strong>daunting</strong> question! <em>DO NOT FEAR</em> I have made a quiz to help you choose. <br>So, if in 5 years from now you are riddled with regrets you can blame me.</p>
         </div>
@@ -19,18 +19,14 @@
     </div>
       <div class="row">
         <div class="col-md-3">
-          <strong>Epicodus</strong><br>
-          400 SW 6th Ave #800<br>
-          Portland, OR 97204<br>
-          blah:<span id="test"></span>
-          </p>
         </div>
         <div class="col-md-4">
           <!--FORM STARTS HERE-->
         <form id="suggester">
           <div class="form-group">
             <div class="radio">
-              <label for="biz-size">What kind of business would you enjoy working for?</br>
+              <h5>What kind of business would you enjoy working for?</h5><br>
+              <label for="biz-size">
                 <input type="radio" name="biz-size" value="1">
                 Large Company
               </label>
@@ -51,7 +47,8 @@
           <!--Q TWO-->
           <div class="form-group">
             <div class="radio">
-              <label for="tech">What kind of product/service interests you?</br>
+              <h5>What kind of product/service interests you?</br></h5>
+              <label for="tech" class="question">
                 <input type="radio" name="tech" value="1">
                 Internal Business Software.
               </label>
@@ -72,8 +69,9 @@
           <!--Q THREE-->
           <div class="form-group">
             <div class="radio">
-              <label for="tech">Which company do you admire* the most from these choices?</br>
-                <small class="form-text text-muted">*the technical aspects of the company.</small>
+              <h5>Which company do you admire* the most from these choices?</h5>
+              <small class="form-text text-muted">*the technical aspects of the company.</small>
+              <label for="tech">
                 <input type="radio" name="company" value="1">
                 Microsoft.
               </label>
@@ -94,7 +92,8 @@
         <!--Q FOUR-->
           <div class="form-group">
             <div class="radio">
-              <label for="tech">All languages have flaws. Which one of these is not a deal-breaker:</br>
+              <h5>All languages have flaws. Which one of these is not a deal-breaker:</h5>
+              <label for="tech">
                 <input type="radio" name="flaw" value="1">
                 Integrates well with Windows, but not yet as well with other platforms.
               </label>
@@ -115,7 +114,8 @@
         <!--Q FIVE-->
           <div class="form-group">
             <div class="radio">
-              <label for="tech">Hey it's not all bad! What kind of pro/unique feature catches your eye?</br>
+              <h5>Hey it's not all bad! What kind of pro/unique feature catches your eye?</h5>
+              <label for="tech">
                 <input type="radio" name="pro" value="1">
                 LINQ for easily querying and updating data.
               </label>
