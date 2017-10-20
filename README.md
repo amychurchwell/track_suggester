@@ -30,6 +30,7 @@ _Leave nothing to chance! You want it to be easy for potential users, employers 
 
 An issue that I have not yet resolved is in regards to the number ranges that are assigned to each result.
 *The possibility of a tie has not been addressed.*
+*There is overlap in results due to the limited nature of the number ranges.*
 
 ## Support and contact details
 

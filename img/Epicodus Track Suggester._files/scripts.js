@@ -6,31 +6,13 @@ $(document).ready(function() {
     var pro = parseInt($("input:radio[name=pro]:checked").val());
     var company = parseInt($("input:radio[name=company]:checked").val());
 
-    var list = [size, tech, company, flaw, pro];
+    var something = [size, tech, company, flaw, pro]; //test for ties
     var answer = size + tech + flaw + pro + company;
 
-debugger;
-    function sort(list) {
-      var a = [], b = []
-      for ( var i = 0; i < arr.length; i++ ) {
-        if ( list[i] !== prev ) {
-          a.push(list[i]);
-          b.push(1);
-        } else {
-            b[b.length-1]++;
-        }
-        prev = list[i];
-    }
+    if (answer === 9 || answer === 11 || answer === 12){
+    $('#error').show();
 
-    return [a, b];
-}
-
-var result = sort(list);
-document.write('[' + result[0] + ']<br>[' + result[1] + ']')
-
-
-
-    if (answer >= 11 && answer <= 15) {
+    } else if (answer >= 11 && answer < 13) {
         $('#PHP').show();
         $('#RUBY').hide();
         $('#C').hide();
@@ -48,6 +30,10 @@ document.write('[' + result[0] + ']<br>[' + result[1] + ']')
       } else {
         alert('Please make some selections.')
       }
+
+
+
+    }
 
     event.preventDefault();
   });
