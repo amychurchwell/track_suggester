@@ -11,13 +11,27 @@
     <div class="container">
       <h1>Epicodus Track Suggester.</h1>
       <form id="suggester">
-        <div class="form-check">
-          <label for="biz-sof">Buisness Software?</label>
-          <select id="biz-sof">
-          <option value="true">Yes</option>
-          <option value="false">No</option>
-        </select>
+        <div class="radio">
+          <label>
+            <input type="radio" name="biz-size" value="large">
+            Large Company
+          </label>
         </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="biz-size" value="small">
+            Small Startup
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="biz-size" value="fast">
+            Fast-Paced Agency
+          </label>
+        </div>
+
         <button type="submit" class="btn">Submit</button>
         </form>
       <!--RESULTS BEGIN HERE-->
