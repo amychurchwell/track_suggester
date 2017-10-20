@@ -2,10 +2,46 @@
   display: none;
 }
 
-div .jumbotron {
+div .jumbotron{
   padding: 15px;
+}
+
+a {
+  font-weight: 600;
+  color: #00b3b4;
+}
+
+#C a:hover{
+  color: #8c2ccc
+}
+
+#RUBY a:hover{
+  color: #ff0000;
+}
+
+#PHP a:hover{
+  color: #0058b7;
+}
+
+div .card{
+  border-color: #00b3b4;
+  border-width: 1px;
+  padding: 30px;
 }
 
 div .card{
   margin: 15px;
+}
+
+h4 .result-type{
+  text-decoration: underline;
+}
+
+button{
+  background-color: #00b3b4;
+  color: #FFF;
+}
+
+div .jumbotron{
+  background-color: #bed8d8;
 }
