@@ -13,16 +13,19 @@ $(document).ready(function() {
       $('#PHP').show();
       $('#RUBY').hide();
       $('#C').hide();
-    } else if (answer < 13 && answer > 7){
-      $('#RUBY').show();
-      $('#PHP').hide();
-      $('#C').hide();
 
-    } else{
-      $("#C").show();
-      $('#RUBY').hide();
-      $('#PHP').hide();
-    }
+      } else if (answer < 13 && answer > 7){
+        $('#RUBY').show();
+        $('#PHP').hide();
+        $('#C').hide();
+
+      } else if (answer < 7){
+        $("#C").show();
+        $('#RUBY').hide();
+        $('#PHP').hide();
+      } else {
+        alert('Please make some selections.')
+      }
 
     event.preventDefault();
   });
