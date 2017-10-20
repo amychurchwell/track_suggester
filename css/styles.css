@@ -4,8 +4,19 @@
 
 div .jumbotron{
   padding-bottom: 15px;
-  background-color: #bed8d8;
+  background-color: #bce2e2;
 }
+
+div .jumbotron a{
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+div .jumbotron a:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+
 
 form{
   margin: 10px;
