@@ -13,7 +13,7 @@ A quiz to help prospective students decide what programming language they should
 
 ## Setup/Installation Requirements
 
-######You will need to clone the repository:
+######You will need to clone the repository:######
 * Open web browser and go to the [GitHub repo][1].
 * In the right hand corner there is a green button. Click and copy the URL.
 * Open terminal.
@@ -29,7 +29,9 @@ A quiz to help prospective students decide what programming language they should
 All bugs correlate to the number ranges given to each possible result.
 Currently testing another method of determining frequency of certain answers.
 *The possibility of a tie has not been addressed.*
-*There is overlap in results due to the limited nature of the number ranges.*
+_There is overlap in results due to the limited nature of the number ranges:
+* C# and Ruby can both have winning values of 9
+* Ruby and PHP can both have winning values of 11 and 12._
 
 ## Support and contact details
 
